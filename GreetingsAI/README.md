@@ -21,7 +21,7 @@ swift test
 
 This repository contains a SwiftUI app (iOS/macOS) that requires Xcode on macOS to run in Simulator.
 
-[![CI](https://github.com/OWNER/REPO/actions/workflows/ci.yml/badge.svg)](https://github.com/OWNER/REPO/actions/workflows/ci.yml)
+[![CI](https://github.com/USERNAME/REPO/actions/workflows/ci.yml/badge.svg)](https://github.com/USERNAME/REPO/actions/workflows/ci.yml)
 
 Replace `OWNER/REPO` in the badge URL above with your GitHub username and repository name to enable the badge.
 
@@ -48,3 +48,4 @@ Notes:
 - If you want I can scaffold an Xcode project (`.xcodeproj`) and wire the files into it so the app can be run directly from Xcode.
 
 ````
+
