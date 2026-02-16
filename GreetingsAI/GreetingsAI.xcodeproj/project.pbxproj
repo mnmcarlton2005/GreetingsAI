@@ -1,0 +1,200 @@
+// !$*UTF8*$!
+{
+  archiveVersion = 1;
+  objects = {
+    /* Begin PBXBuildFile section */
+    777777777777777777777771 /* GreetingsAIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000000 /* GreetingsAIApp.swift */; };
+    777777777777777777777772 /* Views/WizardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000010 /* Views/WizardView.swift */; };
+    777777777777777777777773 /* Views/PreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000011 /* Views/PreviewView.swift */; };
+    777777777777777777777774 /* Views/MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000012 /* Views/MainTabView.swift */; };
+    777777777777777777777775 /* Views/LibraryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000013 /* Views/LibraryView.swift */; };
+    777777777777777777777776 /* Views/HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000014 /* Views/HomeView.swift */; };
+    777777777777777777777777 /* Views/EditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000015 /* Views/EditorView.swift */; };
+    777777777777777777777778 /* ViewModels/LibraryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000016 /* ViewModels/LibraryViewModel.swift */; };
+    777777777777777777777779 /* ViewModels/CreationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000017 /* ViewModels/CreationViewModel.swift */; };
+    777777777777777777777780 /* ViewModels/AuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000018 /* ViewModels/AuthViewModel.swift */; };
+    777777777777777777777781 /* Services/StorageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000019 /* Services/StorageService.swift */; };
+    777777777777777777777782 /* Services/ExportService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000020 /* Services/ExportService.swift */; };
+    777777777777777777777783 /* Services/AIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000021 /* Services/AIService.swift */; };
+    777777777777777777777784 /* Models/User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000022 /* Models/User.swift */; };
+    777777777777777777777785 /* Models/Occasion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000023 /* Models/Occasion.swift */; };
+    777777777777777777777786 /* Models/Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000024 /* Models/Card.swift */; };
+    777777777777777777777787 /* Models/AppStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000025 /* Models/AppStyle.swift */; };
+    777777777777777777777788 /* Resources/Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000026 /* Resources/Theme.swift */; };
+    /* End PBXBuildFile section */
+    /* Begin PBXFileReference section */
+    000000000000000000000000 /* GreetingsAIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreetingsAIApp.swift; sourceTree = "<group>"; };
+    000000000000000000000001 /* Models */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Models; path = Models; sourceTree = "<group>"; };
+    000000000000000000000002 /* Views */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Views; path = Views; sourceTree = "<group>"; };
+    000000000000000000000003 /* ViewModels */ = {isa = PBXFileReference; lastKnownFileType = folder; name = ViewModels; path = ViewModels; sourceTree = "<group>"; };
+    000000000000000000000004 /* Services */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Services; path = Services; sourceTree = "<group>"; };
+    000000000000000000000005 /* Resources */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Resources; path = Resources; sourceTree = "<group>"; };
+    000000000000000000000010 /* Views/WizardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views/WizardView.swift; sourceTree = "<group>"; };
+    000000000000000000000011 /* Views/PreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views/PreviewView.swift; sourceTree = "<group>"; };
+    000000000000000000000012 /* Views/MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views/MainTabView.swift; sourceTree = "<group>"; };
+    000000000000000000000013 /* Views/LibraryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views/LibraryView.swift; sourceTree = "<group>"; };
+    000000000000000000000014 /* Views/HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views/HomeView.swift; sourceTree = "<group>"; };
+    000000000000000000000015 /* Views/EditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views/EditorView.swift; sourceTree = "<group>"; };
+    000000000000000000000016 /* ViewModels/LibraryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModels/LibraryViewModel.swift; sourceTree = "<group>"; };
+    000000000000000000000017 /* ViewModels/CreationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModels/CreationViewModel.swift; sourceTree = "<group>"; };
+    000000000000000000000018 /* ViewModels/AuthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModels/AuthViewModel.swift; sourceTree = "<group>"; };
+    000000000000000000000019 /* Services/StorageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Services/StorageService.swift; sourceTree = "<group>"; };
+    000000000000000000000020 /* Services/ExportService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Services/ExportService.swift; sourceTree = "<group>"; };
+    000000000000000000000021 /* Services/AIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Services/AIService.swift; sourceTree = "<group>"; };
+    000000000000000000000022 /* Models/User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models/User.swift; sourceTree = "<group>"; };
+    000000000000000000000023 /* Models/Occasion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models/Occasion.swift; sourceTree = "<group>"; };
+    000000000000000000000024 /* Models/Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models/Card.swift; sourceTree = "<group>"; };
+    000000000000000000000025 /* Models/AppStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models/AppStyle.swift; sourceTree = "<group>"; };
+    000000000000000000000026 /* Resources/Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resources/Theme.swift; sourceTree = "<group>"; };
+    /* End PBXFileReference section */
+    /* Begin PBXGroup section */
+    111111111111111111111111 = {
+      isa = PBXGroup;
+      children = (
+        000000000000000000000000 /* GreetingsAIApp.swift */,
+        000000000000000000000001 /* Models */,
+        000000000000000000000002 /* Views */,
+        000000000000000000000003 /* ViewModels */,
+        000000000000000000000004 /* Services */,
+        000000000000000000000005 /* Resources */,
+        000000000000000000000010 /* Views/WizardView.swift */,
+        000000000000000000000011 /* Views/PreviewView.swift */,
+        000000000000000000000012 /* Views/MainTabView.swift */,
+        000000000000000000000013 /* Views/LibraryView.swift */,
+        000000000000000000000014 /* Views/HomeView.swift */,
+        000000000000000000000015 /* Views/EditorView.swift */,
+        000000000000000000000016 /* ViewModels/LibraryViewModel.swift */,
+        000000000000000000000017 /* ViewModels/CreationViewModel.swift */,
+        000000000000000000000018 /* ViewModels/AuthViewModel.swift */,
+        000000000000000000000019 /* Services/StorageService.swift */,
+        000000000000000000000020 /* Services/ExportService.swift */,
+        000000000000000000000021 /* Services/AIService.swift */,
+        000000000000000000000022 /* Models/User.swift */,
+        000000000000000000000023 /* Models/Occasion.swift */,
+        000000000000000000000024 /* Models/Card.swift */,
+        000000000000000000000025 /* Models/AppStyle.swift */,
+        000000000000000000000026 /* Resources/Theme.swift */,
+      );
+      path = "";
+      sourceTree = "<group>";
+    };
+    /* End PBXGroup section */
+    /* Begin PBXProject section */
+    222222222222222222222222 = {
+      isa = PBXProject;
+      attributes = {
+        LastUpgradeCheck = 1400;
+      };
+      buildConfigurationList = 333333333333333333333333 /* Build configuration list for PBXProject "GreetingsAI" */;
+      compatibilityVersion = "Xcode 14.0";
+      developmentRegion = English;
+      hasScannedForEncodings = 0;
+      knownRegions = ( en, );
+      mainGroup = 111111111111111111111111;
+      productRefGroup = 444444444444444444444444;
+      projectDirPath = "";
+      projectRoot = "";
+    };
+    /* End PBXProject section */
+    /* Begin PBXProject build configuration list */
+    333333333333333333333333 = {
+      isa = XCConfigurationList;
+      buildConfigurations = (
+        555555555555555555555555 /* Debug */,
+        666666666666666666666666 /* Release */,
+      );
+      defaultConfigurationIsVisible = 0;
+      defaultConfigurationName = Release;
+    };
+    555555555555555555555555 = {
+      isa = XCBuildConfiguration;
+      name = Debug;
+    };
+    666666666666666666666666 = {
+      isa = XCBuildConfiguration;
+      name = Release;
+    };
+    /* End PBXProject build configuration list */
+    /* Begin PBXVariantGroup section */
+    444444444444444444444444 = {
+      isa = PBXGroup;
+      children = (
+        999999999999999999999999 /* GreetingsAI.app */,
+      );
+      name = Products;
+      sourceTree = "<group>";
+    };
+    /* End PBXVariantGroup section */
+
+    /* Begin PBXSourcesBuildPhase section */
+    888888888888888888888888 = {
+      isa = PBXSourcesBuildPhase;
+      buildActionMask = 2147483647;
+      files = (
+        777777777777777777777771,
+        777777777777777777777772,
+        777777777777777777777773,
+        777777777777777777777774,
+        777777777777777777777775,
+        777777777777777777777776,
+        777777777777777777777777,
+        777777777777777777777778,
+        777777777777777777777779,
+        777777777777777777777780,
+        777777777777777777777781,
+        777777777777777777777782,
+        777777777777777777777783,
+        777777777777777777777784,
+        777777777777777777777785,
+        777777777777777777777786,
+        777777777777777777777787,
+        777777777777777777777788,
+      );
+      runOnlyForDeploymentPostprocessing = 0;
+    };
+    /* End PBXSourcesBuildPhase section */
+
+    /* Begin PBXNativeTarget section */
+    666666666666666666666667 = {
+      isa = PBXNativeTarget;
+      buildConfigurationList = 222222222222222222222223 /* Build configuration list for PBXNativeTarget "GreetingsAI" */;
+      buildPhases = (
+        888888888888888888888888 /* Sources */,
+      );
+      buildRules = (
+      );
+      dependencies = (
+      );
+      name = GreetingsAI;
+      productName = GreetingsAI;
+      productReference = 999999999999999999999999 /* GreetingsAI.app */;
+      productType = "com.apple.product-type.application";
+    };
+    /* End PBXNativeTarget section */
+
+    /* Begin XCConfigurationList for target */
+    222222222222222222222223 = {
+      isa = XCConfigurationList;
+      buildConfigurations = (
+        777777777777777777771111 /* Debug */,
+        777777777777777777772222 /* Release */,
+      );
+      defaultConfigurationIsVisible = 0;
+      defaultConfigurationName = Release;
+    };
+    777777777777777777771111 = {
+      isa = XCBuildConfiguration;
+      name = Debug;
+    };
+    777777777777777777772222 = {
+      isa = XCBuildConfiguration;
+      name = Release;
+    };
+    /* End XCConfigurationList for target */
+
+    /* Begin PBXFileReference for product */
+    999999999999999999999999 /* GreetingsAI.app */ = {isa = PBXFileReference; lastKnownFileType = wrapper.application; path = GreetingsAI.app; sourceTree = "<group>"; };
+    /* End PBXFileReference for product */
+  };
+  rootObject = 222222222222222222222222;
+}
